@@ -20,7 +20,7 @@ os.makedirs("payslips", exist_ok=True)
 
 # Read the Excel file
 try:
-    df = pd.read_excel(r"C:\Users\Leo-T-Mazive\Documents\New folder1\employee.xlsx")
+    df = pd.read_excel(r"C:\Users\Leo-T-Mazive\Documents\Payslip Project\employee.xlsx")
 except Exception as e:
     raise FileNotFoundError("Error reading 'employees.xlsx': " + str(e))
 
